@@ -1,35 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:meals/screens/category_screen.dart';
 
 void main() {
   runApp(
-     MaterialApp(
+    MaterialApp(
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.blue
-        )
+          primarySwatch: Colors.blue,
+        ),
       ),
-      home: MyHomePage(),
+      home: const CategoriesScreen(),
     ),
   );
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Vamos Cozinhar?'),
-      ),
-      body: Center(
-        child: Text('Navegar é preciso!!!'),
-      ),
-    );
-  }
 }
