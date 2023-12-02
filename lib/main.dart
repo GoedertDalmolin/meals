@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:meals/data/colors.dart';
+import 'package:meals/screens/categories_meals_screen.dart';
 import 'package:meals/screens/category_screen.dart';
 
 void main() {
@@ -25,6 +26,9 @@ void main() {
             ),
       ),
       home: const CategoriesScreen(),
+      routes: {
+        '/categories-meals': (context) => const CategoriesMealsScreen(),
+      },
     ),
   );
 }
