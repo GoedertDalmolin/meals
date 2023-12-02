@@ -5,11 +5,11 @@ class ColorsProject {
   /// Background color - White - (White | HexColor: FBFCFF).
   static const white = Color(0xFFFBFCFF);
 
-  /// Variant of Primary Swatch - Cyan - (Dark Cyan | HexColor: 119DA4).
-  static const darkCyan = Color(0xFF119DA4);
-
   /// Primary Swatch - Cerulean - (Cerulean | HexColor: 0C7489).
   static const cerulean = Color(0xFF0C7489);
+
+  /// Variant/Secondary of Primary Swatch - Cyan - (Dark Cyan | HexColor: 119DA4).
+  static const darkCyan = Color(0xFF119DA4);
 
   /// Accent Color - Amber - (Xanthous | HexColor: FFBC42).
   static const xanthous = Color(0xFFFFBC42);
