@@ -18,11 +18,11 @@ void main() {
           brightness: Brightness.light,
         ),
         textTheme: ThemeData.light().textTheme.copyWith(
-          titleLarge: TextStyle(
-            fontSize: 20,
-            fontFamily: GoogleFonts.getFont('Roboto Condensed').fontFamily,
-          )
-        ),
+              titleLarge: TextStyle(
+                fontSize: 20,
+                fontFamily: GoogleFonts.getFont('Roboto Condensed').fontFamily,
+              ),
+            ),
       ),
       home: const CategoriesScreen(),
     ),

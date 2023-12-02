@@ -15,12 +15,6 @@ class CategoriesScreen extends StatelessWidget {
           style: Theme.of(context).textTheme.titleLarge,
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () {
-
-        },
-      ),
       body: GridView(
         padding: const EdgeInsets.all(25),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
