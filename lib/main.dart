@@ -19,6 +19,9 @@ void main() {
           errorColor: ColorsProject.crimson,
           brightness: Brightness.light,
         ),
+        appBarTheme: AppBarTheme(
+          backgroundColor: ColorsProject.white
+        ),
         textTheme: ThemeData.light().textTheme.copyWith(
               titleLarge: TextStyle(
                 fontSize: 20,
