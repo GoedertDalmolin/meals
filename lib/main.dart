@@ -15,13 +15,11 @@ void main() {
           primarySwatch: ColorsProject().primarySwatchPallet,
           accentColor: ColorsProject.xanthous,
           backgroundColor: ColorsProject.white,
-          cardColor: ColorsProject.darkCyan,
+          // cardColor: ColorsProject.darkCyan,
           errorColor: ColorsProject.crimson,
           brightness: Brightness.light,
         ),
-        appBarTheme: AppBarTheme(
-          backgroundColor: ColorsProject.white
-        ),
+        appBarTheme: const AppBarTheme(backgroundColor: ColorsProject.white),
         textTheme: ThemeData.light().textTheme.copyWith(
               titleLarge: TextStyle(
                 fontSize: 20,
