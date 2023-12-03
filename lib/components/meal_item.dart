@@ -1,17 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
+import 'package:meals/utils/app_routes.dart';
 
 class MealItem extends StatelessWidget {
   final Meal meal;
 
   const MealItem({super.key, required this.meal});
 
-  _selectMeal() {}
+  _selectMeal({required BuildContext context}) {
+    Navigator.pushNamed(
+      context,
+      AppRoutes.mealDetail,
+      arguments: meal,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => _selectMeal,
+      onTap: () => _selectMeal(context: context),
       child: Card(
         surfaceTintColor: Colors.white,
         color: Colors.white,

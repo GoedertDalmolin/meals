@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:meals/data/colors.dart';
 import 'package:meals/screens/categories_meals_screen.dart';
 import 'package:meals/screens/category_screen.dart';
+import 'package:meals/screens/meal_detail_screen.dart';
 import 'package:meals/utils/app_routes.dart';
 
 void main() {
@@ -30,6 +31,7 @@ void main() {
       routes: {
         AppRoutes.home: (context) => const CategoriesScreen(),
         AppRoutes.categoriesMeals: (context) => const CategoriesMealsScreen(),
+        AppRoutes.mealDetail: (context) => const MealDetailScreen(),
       },
     ),
   );
