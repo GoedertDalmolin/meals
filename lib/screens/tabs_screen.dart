@@ -35,12 +35,12 @@ class _TabsScreenState extends State<TabsScreen> {
         // elevation: 0,
         title: Text(_screens[_selectedScreenIndex]['title'] as String),
       ),
-      drawer: MainDrawer(),
+      drawer: const MainDrawer(),
       body: _screens[_selectedScreenIndex]['screen'] as Widget,
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectScreen,
         currentIndex: _selectedScreenIndex,
-        items: [
+        items: const [
           BottomNavigationBarItem(icon: Icon(Icons.category_outlined), label: 'Categorias'),
           BottomNavigationBarItem(icon: Icon(Icons.star_border), label: 'Favoritos'),
         ],

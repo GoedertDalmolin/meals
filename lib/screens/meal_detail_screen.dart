@@ -60,7 +60,7 @@ class MealDetailScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return Card(
                     elevation: 5,
-                    color: Color(0xFF034078),
+                    color: const Color(0xFF034078),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 6),
                       child: Text(
