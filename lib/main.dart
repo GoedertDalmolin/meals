@@ -12,23 +12,23 @@ void main() {
 
   runApp(
     MaterialApp(
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: ColorsProject().primarySwatchPallet,
-          accentColor: ColorsProject.xanthous,
-          backgroundColor: ColorsProject.white,
-          // cardColor: ColorsProject.darkCyan,
-          errorColor: ColorsProject.crimson,
-          brightness: Brightness.light,
-        ),
-        appBarTheme: const AppBarTheme(backgroundColor: ColorsProject.white),
-        textTheme: ThemeData.light().textTheme.copyWith(
-              titleLarge: TextStyle(
-                fontSize: 20,
-                fontFamily: GoogleFonts.getFont('Roboto Condensed').fontFamily,
-              ),
-            ),
-      ),
+      // theme: ThemeData(
+      //   colorScheme: ColorScheme.fromSwatch(
+      //     primarySwatch: ColorsProject().primarySwatchPallet,
+      //     accentColor: ColorsProject.xanthous,
+      //     backgroundColor: ColorsProject.white,
+      //     // cardColor: ColorsProject.darkCyan,
+      //     errorColor: ColorsProject.crimson,
+      //     brightness: Brightness.light,
+      //   ),
+      //   appBarTheme: const AppBarTheme(backgroundColor: ColorsProject.white),
+      //   textTheme: ThemeData.light().textTheme.copyWith(
+      //         titleLarge: TextStyle(
+      //           fontSize: 20,
+      //           fontFamily: GoogleFonts.getFont('Roboto Condensed').fontFamily,
+      //         ),
+      //       ),
+      // ),
       routes: {
         AppRoutes.home: (context) => const TabsScreen(),
         AppRoutes.categoriesMeals: (context) => const CategoriesMealsScreen(),
