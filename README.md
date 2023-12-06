@@ -17,12 +17,25 @@ This project, although simple, aims to review the concepts of navigation between
 
 ---
 ## 👁️ Preview
+--
+# Home Page
 <img src='.github/images/home_page.png'/>
+--
+# Categories Meals Page
 <img src='.github/images/categories_meals_screen.png'/>
+--
+# Categories Detail Meals Page
 <img src='.github/images/meal_detail_screen.png'/>
+--
+# Favorite Page
 <img src='.github/images/favorite_screen.png'/>
+--
+# Drawer
 <img src='.github/images/drawer_screen.png'/>
+--
+# Settings Page
 <img src='.github/images/settings_screen.png'/>
+
 
 ---
 
