@@ -17,7 +17,12 @@ This project, although simple, aims to review the concepts of navigation between
 
 ---
 ## 👁️ Preview
-<img src='.github/otimizado.gif'/>
+<img src='.github/images/home_page.png'/>
+<img src='.github/images/categories_meals_screen.png'/>
+<img src='.github/images/meal_detail_screen.png'/>
+<img src='.github/images/favorite_screen.png'/>
+<img src='.github/images/drawer_screen.png'/>
+<img src='.github/images/settings_screen.png'/>
 
 ---
 
