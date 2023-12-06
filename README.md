@@ -19,23 +19,40 @@ This project, although simple, aims to review the concepts of navigation between
 ## 👁️ Preview
 ---
 ## Home Page
+
 <img src='.github/images/home_page.png'/>
+
 ---
+
 ## Categories Meals Page
+
 <img src='.github/images/categories_meals_screen.png'/>
+
 ---
+
 ## Categories Detail Meals Page
+
 <img src='.github/images/meal_detail_screen.png'/>
+
 ---
+
 ## Favorite Page
+
 <img src='.github/images/favorite_screen.png'/>
+
 ---
+
 ## Drawer
+
 <img src='.github/images/drawer_screen.png'/>
+
 ---
 ## Settings Page
+
 <img src='.github/images/settings_screen.png'/>
+
 ---
+
 
 ## 📝 Notes
 During the course I made some changes to the project. I used the latest version of flutter available to date (flutter v3.16.2 and dart v3.2.2). I tried to use another color style after all I didn't like the style used during the course. I also used the google_fonts and font_awesome_flutter packages.
@@ -53,4 +70,4 @@ This project was developed using the following technologies:
 
 ---
 </> Developed by [GoedertDalmolin](https://github.com/GoedertDalmolin) 👋
---
+---
