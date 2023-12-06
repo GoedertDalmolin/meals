@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:meals/models/meal.dart';
 
 import '../models/category.dart';
@@ -7,52 +8,62 @@ const dummyCategories = [
   Category(
     id: 'c1',
     title: 'Italiano',
-    color: Colors.purple,
+    color: Colors.yellowAccent,
+    icon: FontAwesomeIcons.pizzaSlice,
   ),
   Category(
     id: 'c2',
     title: 'Rápido & Fácil',
     color: Colors.red,
+    icon: FontAwesomeIcons.personRunning,
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
+    icon: FontAwesomeIcons.burger,
   ),
   Category(
     id: 'c4',
     title: 'Alemã',
     color: Colors.amber,
+    icon: FontAwesomeIcons.beerMugEmpty,
   ),
   Category(
     id: 'c5',
     title: 'Leve & Saudável',
-    color: Colors.indigo,
+    color: Colors.red,
+    icon: FontAwesomeIcons.notesMedical,
   ),
   Category(
     id: 'c6',
     title: 'Exótica',
     color: Colors.green,
+    icon: FontAwesomeIcons.starOfLife,
   ),
   Category(
     id: 'c7',
     title: 'Café da Manhã',
-    color: Colors.lightBlue,
+    color: Colors.brown,
+    icon: FontAwesomeIcons.mugSaucer,
   ),
   Category(
     id: 'c8',
     title: 'Asiática',
     color: Colors.lightGreen,
+    icon: FontAwesomeIcons.mortarPestle,
   ),
   Category(
     id: 'c9',
     title: 'Francesa',
-    color: Colors.pink,
+    color: Colors.purple,
+    icon: FontAwesomeIcons.wineBottle,
   ),
   Category(
     id: 'c10',
     title: 'Verão',
-    color: Colors.teal,
+    color: Colors.orange,
+    icon: FontAwesomeIcons.sun,
   ),
 ];
 

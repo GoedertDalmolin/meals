@@ -29,7 +29,7 @@ class MealDetailScreen extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       margin: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Theme.of(context).primaryColor,
+        // color: Theme.of(context).primaryColor,
         borderRadius: BorderRadius.circular(15),
         border: Border.all(
           color: Colors.black,
@@ -67,7 +67,7 @@ class MealDetailScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return Card(
                     elevation: 5,
-                    color: const Color(0xFF034078),
+                    color: ColorsProject.cerulean,
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 6),
                       child: Text(
@@ -90,15 +90,15 @@ class MealDetailScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return Card(
                     elevation: 5,
-                    color: ColorsProject.darkCyan,
+                    color: ColorsProject.cerulean,
                     child: ListTile(
                       leading: CircleAvatar(
-                        // backgroundColor: ColorsProject.darkCyan,
+                        backgroundColor: ColorsProject.white,
                         child: Text((index + 1).toString()),
                       ),
                       title: Text(
                         meal.steps[index],
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(color: ColorsProject.white),
                       ),
                     ),
                   );
@@ -109,7 +109,8 @@ class MealDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child:  Icon(isFavorite(meal) ? Icons.star : Icons.star_border),
+        backgroundColor: ColorsProject.cerulean,
+        child: Icon(isFavorite(meal) ? Icons.star : Icons.star_border, color: Colors.white,),
         onPressed: () {
           onToggleFavorite(meal);
         },

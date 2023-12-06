@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:meals/data/colors.dart';
 import 'package:meals/utils/app_routes.dart';
 
 class MainDrawer extends StatelessWidget {
@@ -33,14 +34,14 @@ class MainDrawer extends StatelessWidget {
             height: 120,
             width: double.infinity,
             padding: const EdgeInsets.all(20),
-            color: Theme.of(context).colorScheme.secondary,
+            color: ColorsProject.cerulean,
             alignment: Alignment.bottomRight,
             child: const Text(
               'Vamos Cozinhar?',
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 30,
-                // color: Theme.of(context).primaryColor,
+                color: Colors.white,
               ),
             ),
           ),
