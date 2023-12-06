@@ -35,7 +35,6 @@ This project, although simple, aims to review the concepts of navigation between
 ---
 # Settings Page
 <img src='.github/images/settings_screen.png'/>
-
 ---
 
 ## 📝 Notes
