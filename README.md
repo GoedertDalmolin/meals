@@ -8,8 +8,8 @@
 
 **Language:**
 
-[![English](https://img.shields.io/badge/Language-English-blueviolet?style=for-the-badge)](README.md)
-[![Portuguese](https://img.shields.io/badge/Language-Português-blue?style=for-the-badge)](README.pt-br.md)
+[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+[![Portuguese](https://img.shields.io/badge/Language-Português-blueviolet?style=for-the-badge)](README.pt-br.md)
 
 </div>
 
