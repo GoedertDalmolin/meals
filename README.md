@@ -4,20 +4,32 @@
 
 ---
 
+<div align="center">
+
+**Language:**
+
+[![English](https://img.shields.io/badge/Language-English-blueviolet?style=for-the-badge)](README.md)
+[![Portuguese](https://img.shields.io/badge/Language-Português-blue?style=for-the-badge)](README.pt-br.md)
+
+</div>
+
+---
 ## ℹ️ About this repository
 This repository's main objective is to demonstrate the application developed to train my knowledge during the Flutter course from the company [COD3R](https://www.udemy.com/course/curso-flutter/).
 
+This project, although simple, aims to review the concepts of navigation between screens using Flutter.
+
+---
+## ⚙️ Features
 This app consists of:
+
 - List meal categories.
 - List meals linked to a particular meal category.
 - Filter meals based on user-defined settings.
 - Manage meals marked as favorites by the user.
 
-This project, although simple, aims to review the concepts of navigation between screens using Flutter.
-
 ---
 ## 👁️ Preview
----
 <h1 align="center">
 <img src='.github/images/home_page.png' width="32%"/>
 <img src='.github/images/categories_meals_screen.png' width="32%"/>
@@ -31,13 +43,6 @@ This project, although simple, aims to review the concepts of navigation between
 </h1>
 
 ---
-
-
-## 📝 Notes
-During the course I made some changes to the project. I used the latest version of flutter available to date (flutter v3.16.2 and dart v3.2.2). I tried to use another color style after all I didn't like the style used during the course. I also used the google_fonts and font_awesome_flutter packages.
-
----
-
 ## 🧪 Technologies
 This project was developed using the following technologies:
 
@@ -46,6 +51,22 @@ This project was developed using the following technologies:
 - [Intl](https://pub.dev/packages/intl)
 - [Google_Fonts](https://pub.dev/packages/google_fonts)
 - [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
+
+---
+## ⚡ Installing
+
+First clone this project using:
+
+```bash
+  git clone https://github.com/GoedertDalmolin/meals.git
+  cd meals
+```
+
+Finally, with flutter installed on your machine, run the following command:
+
+```bash
+  flutter run
+```
 
 ---
 </> Developed by [GoedertDalmolin](https://github.com/GoedertDalmolin) 👋
